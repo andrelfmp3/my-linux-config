@@ -25,6 +25,7 @@ instalationsExtra = [
     "tor"
     "ncspot"
     "yazi"
+    "flatpak"
     ]
 
 instalationsAur = [
@@ -34,6 +35,8 @@ instalationsAur = [
     "vesktop"
     "mcomix"
     "teamviewer"
+    "brmodelo"
+    "heroic-games-launcher-bin"
 ]
 
 instalationsMultilib = [
