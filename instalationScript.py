@@ -1,14 +1,14 @@
+# instalar via yay "x" ou sudo pacman -S "x". Selecionar oq instalar, ou instalar tudo de uma vez.
+
 instalationsExtra = [
+    "btop
+    "blanket"
+    "code" # vscode
     "python-pip"
     "firefox"
-    "vim"
-    "htop"
+    "flatpak"
+    "fastfetch"
     "git"
-    "blanket"
-    "yay"
-    "firefox"
-    "code" # vscode
-    "yakuake"
     "konsole"
     "zsh" # "zsh-syntax-highlighting", powelevel10k
     "ufw"
@@ -19,13 +19,15 @@ instalationsExtra = [
     "netbeans"
     "umbrello"
     "mysql-workbench"
-    "umbrello"
-    "kolourpaint"
     "libreoffice-still"
     "tor"
     "ncspot"
+    "vim"
+    "virtualbox"
+    "kolourpaint"
+    "yakuake"
     "yazi"
-    "flatpak"
+    "yay"
     ]
 
 instalationsAur = [
@@ -41,4 +43,8 @@ instalationsAur = [
 
 instalationsMultilib = [
     "steam"
+]
+
+instalationsBlackArch = [
+    "regripper"
 ]

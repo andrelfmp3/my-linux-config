@@ -1,4 +1,5 @@
 # my-linux-config
+# black-endeavouros
 
 #### Filosofia:
 - Poder dos customizáveis. Simplicidade dos pré-prontos.
@@ -10,9 +11,9 @@
 - Sistema operacional deve solucionar problemas, e não ser um.
  
 #### Pontos Principais:
-- Arch Linux
+- EndeavourOS / ArchLinux (endeavour já tem umas coisas baixadas, como fazer scritp reconhecer que já está baixado? rebaixar obrigatoriamente? fazer if?)
 - KDE plasma
 - Kernel LTS 
-- Dracula Theme
+- Modo noturno
 
 
