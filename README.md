@@ -16,4 +16,10 @@
 - Kernel LTS 
 - Modo noturno
 
+## Passo a passo
+- Executar Script de instalação via yay 
+- Executar Script de extensões do VScode
+- Executar Script de extensões e configurações do firefox
+- Setar tema do KDE 
+- Configurar Zshel
 

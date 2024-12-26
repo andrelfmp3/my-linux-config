@@ -43,6 +43,7 @@ instalationsAur = [
 
 instalationsMultilib = [
     "steam"
+    "wine"
 ]
 
 instalationsBlackArch = [
