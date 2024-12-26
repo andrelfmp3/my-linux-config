@@ -1,0 +1,13 @@
+# feito manualmente
+
+darkreader
+enhanced-github
+enhancers-for-youtube
+enhancer-for-notion
+ip-address-and-domain-information
+plasma-integration
+wappalyzer
+ublock-origin
+block-site
+unhook
+notion-enhancer
