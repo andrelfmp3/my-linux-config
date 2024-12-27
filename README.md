@@ -39,8 +39,18 @@ sudo ./strap.sh
 ```
 
 ### yayScript:
+```
+chmod +x yayScript.sh
+```
+```
+./yayScript.sh
+```
 
 ### Extensões do VScode:
+- **extensionsCode**
+
+Run in Terminal
+Save all Files Before Run
 
 ### Firefox extensions and settings:
 - Extensões: **extensionsFirefox.txt**
@@ -50,11 +60,13 @@ sudo ./strap.sh
 
 ### KDE Theme:
 - Global theme: Nothing theme (appearance settings, desktop and windows layout)
-- main color: orange
-- icons: dracula
+- Breeze main color: orange
+- icons: breeze warm orange
 - splash screen = null
 - panels (lower: autohide + central + 40) and (up: autohide, only orange icons (filtrar))
 - sddm monochrome kde by patrik
+- Wallpapers: homescreen/lockscreen folder. slideshow mode. 15s.
+- Account icon: bat.jpg
 
 ### ZSH:
 - zsh-syntax-highlighting
