@@ -1,13 +1,12 @@
 # feito manualmente
 
-darkreader
+dark-reader
 enhanced-github
-enhancers-for-youtube
-enhancer-for-notion
+enhancer-for-youtube
+notion-enhancer
 ip-address-and-domain-information
-plasma-integration
 wappalyzer
 ublock-origin
 block-site
 unhook
-notion-enhancer
+simple-translate

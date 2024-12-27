@@ -1,25 +1,66 @@
-# my-linux-config
-# black-endeavouros
+# my-linux-config: black-endeavourOS
 
-#### Filosofia:
+## Filosofia:
 - Poder dos customizáveis. Simplicidade dos pré-prontos.
 - Preferir open-source, mas não renegar software proprietário.
 - Batteries included. Básico que funciona.
 - Rolling release mais estável possível
-- Foco em terminal e atalhos de teclado (vim)
+- Harmonia entre terminal e interfaces.
 - Aplicações maduras, evitar lançamentos novos. 
 - Sistema operacional deve solucionar problemas, e não ser um.
- 
-#### Pontos Principais:
-- EndeavourOS / ArchLinux (endeavour já tem umas coisas baixadas, como fazer scritp reconhecer que já está baixado? rebaixar obrigatoriamente? fazer if?)
-- KDE plasma
-- Kernel LTS 
-- Modo noturno
 
-## Passo a passo
-- Executar Script de instalação via yay 
-- Executar Script de extensões do VScode
-- Executar Script de extensões e configurações do firefox
-- Setar tema do KDE 
-- Configurar Zshel
+## Pontos Principais:
+- EndeavourOS + KDE plasma
+- Kernel LTS
+- Dark mode + orange details
+
+## Comandos
+
+### Atualizar sistema:
+```
+su # opcional
+```
+```
+sudo pacman -Syu
+```
+
+### Blackarch:
+```
+# enable multilib
+
+curl -O https://blackarch.org/strap.sh
+
+echo bbf0a0b838aed0ec05fff2d375dd17591cbdf8aa strap.sh | sha1sum -c
+
+chmod +x strap.sh
+
+sudo ./strap.sh
+
+```
+
+### yayScript:
+
+### Extensões do VScode:
+
+### Firefox extensions and settings:
+- Extensões: **extensionsFirefox.txt**
+    - Notion-enhancer: neutral theme
+- Theme: Matte Black (Orange) by Elijah Lopez
+- Toolbar: no "Flexible Space" and "Save to Pocket" + "Developer" tool added
+
+### KDE Theme:
+- Global theme: Nothing theme (appearance settings, desktop and windows layout)
+- main color: orange
+- icons: dracula
+- splash screen = null
+- panels (lower: autohide + central + 40) and (up: autohide, only orange icons (filtrar))
+- sddm monochrome kde by patrik
+
+### ZSH:
+- zsh-syntax-highlighting
+- powelevel10k
+
+
+
+
 

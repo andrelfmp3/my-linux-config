@@ -3,14 +3,14 @@
 instalationsExtra = [
     "btop
     "blanket"
-    "code" # vscode
+    "code" 
     "python-pip"
     "firefox"
     "flatpak"
     "fastfetch"
     "git"
     "konsole"
-    "zsh" # "zsh-syntax-highlighting", powelevel10k
+    "zsh" 
     "ufw"
     "gufw"
     "kdeconnect"
