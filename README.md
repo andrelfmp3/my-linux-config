@@ -24,6 +24,8 @@ su # opcional
 sudo pacman -Syu
 ```
 
+--- 
+
 ### Blackarch:
 ```
 # enable multilib
@@ -38,6 +40,8 @@ sudo ./strap.sh
 
 ```
 
+---
+
 ### yayScript:
 ```
 chmod +x yayScript.sh
@@ -45,18 +49,35 @@ chmod +x yayScript.sh
 ```
 ./yayScript.sh
 ```
+#### yayScript: customs details
+- Change vesktop icon
+- Enable yakuake + terminal theme 
 
-### Extensões do VScode:
-- **extensionsCode**
 
-Run in Terminal
-Save all Files Before Run
+---
+
+### VScode Extensions:
+```
+extensionsCode.txt
+```
+#### Vscode Extensions: custom details
+- Run in Terminal
+- Save all Files Before Run
+
+---
 
 ### Firefox extensions and settings:
-- Extensões: **extensionsFirefox.txt**
-    - Notion-enhancer: neutral theme
+```
+Extensões: **extensionsFirefox.txt**
+```
+
+#### Firefox extensions and settings: custom details
+- Notion-enhancer: neutral theme
+- Unhook: no shorts, comments, mixes and redirect to subscriptions (hide home feed), Dark mode
 - Theme: Matte Black (Orange) by Elijah Lopez
 - Toolbar: no "Flexible Space" and "Save to Pocket" + "Developer" tool added
+
+---
 
 ### KDE Theme:
 - Global theme: Nothing theme (appearance settings, desktop and windows layout)
@@ -71,8 +92,3 @@ Save all Files Before Run
 ### ZSH:
 - zsh-syntax-highlighting
 - powelevel10k
-
-
-
-
-
