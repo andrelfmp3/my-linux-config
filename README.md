@@ -40,6 +40,13 @@ sudo ./strap.sh
 
 ```
 
+### Bluetooth:
+```
+sudo systemctl start bluetooth
+
+sudo systemctl enable bluetooth
+```
+
 ---
 
 ### yayScript:
@@ -51,7 +58,7 @@ chmod +x yayScript.sh
 ```
 #### yayScript: customs details
 - Change vesktop icon
-- Enable yakuake + terminal theme 
+- Enable yakuake + terminal theme + autostart + 90x90
 
 
 ---
@@ -92,3 +99,9 @@ Extensões: **extensionsFirefox.txt**
 ### ZSH:
 - zsh-syntax-highlighting
 - powelevel10k
+
+### Extra:
+- Whatsapp web bug deleting letter that starts with accent
+```
+GTK_IM_MODULE=xim # on /etc/environment 
+```
