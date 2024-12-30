@@ -10,3 +10,4 @@ ublock-origin
 block-site
 unhook
 simple-translate
+vimium

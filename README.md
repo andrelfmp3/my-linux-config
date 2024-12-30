@@ -57,8 +57,8 @@ chmod +x yayScript.sh
 ./yayScript.sh
 ```
 #### yayScript: customs details
-- Change vesktop icon
-- Enable yakuake + terminal theme + autostart + 90x90
+- Check vesktop icon + add DiscordNight.theme.css
+- Enable yakuake + terminal theme + autostart  + 90x90 + nothin theme (konsole too) + don't show the tittle bar and the tab bar
 
 
 ---
