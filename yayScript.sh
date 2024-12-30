@@ -34,6 +34,7 @@ instalationsAur=(
     "spotify"
     "qbittorrent"
     "vesktop"
+    "yay ttf-meslo-nerd-font-powerlevel10k"
     "mcomix"
     "teamviewer"
     "brmodelo"

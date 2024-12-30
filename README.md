@@ -58,7 +58,7 @@ chmod +x yayScript.sh
 ```
 #### yayScript: customs details
 - Check vesktop icon + add DiscordNight.theme.css
-- Enable yakuake + terminal theme + autostart  + 90x90 + nothin theme (konsole too) + don't show the tittle bar and the tab bar
+- Enable yakuake + terminal theme + autostart  + 90x90 + nothin theme (konsole too) + don't show the tittle bar and the tab bar + **/bin/bash** -> **/bin/zsh**
 
 
 ---
@@ -87,6 +87,7 @@ Extensões: **extensionsFirefox.txt**
 ---
 
 ### KDE Theme:
+- Favorite: 
 - Global theme: Nothing theme (appearance settings, desktop and windows layout)
 - Breeze main color: orange
 - icons: breeze warm orange
@@ -97,11 +98,54 @@ Extensões: **extensionsFirefox.txt**
 - Account icon: bat.jpg
 
 ### ZSH:
-- zsh-syntax-highlighting
-- powelevel10k
+```
+# ohmyzsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+```
+# powerlevel10k
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+```
+# zsh-autosuggestions
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+```
+
+```
+# zsh-syntax-highlighting
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+```
+
+```
+# inside ~/.zshrc
+# nano ~/.zshrc
+
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+plugins=( 
+    # other plugins...
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+```
+
+
+```
+
+```
 
 ### Extra:
 - Whatsapp web bug deleting letter that starts with accent
 ```
 GTK_IM_MODULE=xim # on /etc/environment 
 ```
+
+### Fontes:
+https://www.youtube.com/watch?v=DmpMgTL6R9A&t=18s
