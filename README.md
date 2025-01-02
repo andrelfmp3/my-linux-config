@@ -83,6 +83,8 @@ Extensões: **extensionsFirefox.txt**
 - Unhook: no shorts, comments, mixes and redirect to subscriptions (hide home feed), Dark mode
 - Theme: Matte Black (Orange) by Elijah Lopez
 - Toolbar: no "Flexible Space" and "Save to Pocket" + "Developer" tool added
+- Enhancer for YouTube™: Orange dark theme
+
 
 ---
 

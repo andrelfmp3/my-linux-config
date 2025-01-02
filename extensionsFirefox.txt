@@ -11,3 +11,4 @@ block-site
 unhook
 simple-translate
 vimium
+enhancer-for-youtube
