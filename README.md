@@ -1,32 +1,30 @@
-# my-linux-config: black-endeavourOS
+# my-linux-config
 
-## Filosofia:
-- Poder dos customizáveis. Simplicidade dos pré-prontos.
-- Preferir open-source, mas não renegar software proprietário.
-- Batteries included. Básico que funciona.
-- Rolling release mais estável possível
-- Harmonia entre terminal e interfaces.
-- Aplicações maduras, evitar lançamentos novos. 
-- Sistema operacional deve solucionar problemas, e não ser um.
+- Blackarch over arch linux
+- Instalation script + custom details
 
-## Pontos Principais:
-- EndeavourOS + KDE plasma
-- Kernel LTS
-- Dark mode + orange details
+## Guide from installing from scrach:
 
-## Comandos
+### Initial update:
 
-### Atualizar sistema:
-```
-su # opcional
-```
 ```
 sudo pacman -Syu
 ```
 
+---
+
+### Enable Multilib
+
+```
+# on /etc/pacman.conf
+
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+```
+
 --- 
 
-### Blackarch:
+### Enable Blackarch:
 ```
 # enable multilib
 
@@ -39,8 +37,9 @@ chmod +x strap.sh
 sudo ./strap.sh
 
 ```
+---
 
-### Bluetooth:
+### Enable Bluetooth:
 ```
 sudo systemctl start bluetooth
 
@@ -51,10 +50,9 @@ sudo systemctl enable bluetooth
 
 ### yayScript:
 ```
-chmod +x yayScript.sh
-```
-```
-./yayScript.sh
+chmod +x BlackArch+yayScript.sh
+
+./BlackArch+yayScript.sh
 ```
 #### yayScript: customs details
 - Check vesktop icon + add DiscordNight.theme.css
@@ -75,7 +73,7 @@ extensionsCode.txt
 
 ### Firefox extensions and settings:
 ```
-Extensões: **extensionsFirefox.txt**
+Extensions: **extensionsFirefox.txt**
 ```
 
 #### Firefox extensions and settings: custom details
@@ -89,15 +87,13 @@ Extensões: **extensionsFirefox.txt**
 ---
 
 ### KDE Theme:
-- Favorite: 
 - Global theme: Nothing theme (appearance settings, desktop and windows layout)
 - Breeze main color: orange
 - icons: breeze warm orange
 - splash screen = null
-- panels (lower: autohide + central + 40) and (up: autohide, only orange icons (filtrar))
+- panels (lower: autohide + central + 40) and (up: autohide, only orange icons)
 - sddm monochrome kde by patrik
 - Wallpapers: homescreen/lockscreen folder. slideshow mode. 15s.
-- Account icon: bat.jpg
 
 ### ZSH:
 ```
@@ -138,16 +134,9 @@ plugins=(
 )
 ```
 
-
-```
-
-```
-
 ### Extra:
 - Whatsapp web bug deleting letter that starts with accent
 ```
 GTK_IM_MODULE=xim # on /etc/environment 
 ```
 
-### Fontes:
-https://www.youtube.com/watch?v=DmpMgTL6R9A&t=18s
