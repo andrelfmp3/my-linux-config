@@ -1,7 +1,8 @@
 # my-linux-config
 
 - Blackarch over arch linux
-- Instalation script + custom details
+- Instalation script + wallpapers + custom details
+- Personal use only
 
 ## Guide from installing from scrach:
 
@@ -56,7 +57,7 @@ chmod +x BlackArch+yayScript.sh
 ```
 #### yayScript: customs details
 - Check vesktop icon + add DiscordNight.theme.css
-- Enable yakuake + terminal theme + autostart  + 90x90 + nothin theme (konsole too) + don't show the tittle bar and the tab bar + **/bin/bash** -> **/bin/zsh**
+- Enable Yakuake/Konsole + Terminal Theme + Autostart + "Nothing Theme" + don't show the tittle bar and the tab bar + **/bin/bash** -> **/bin/zsh**
 
 
 ---
@@ -73,7 +74,7 @@ extensionsCode.txt
 
 ### Firefox extensions and settings:
 ```
-Extensions: **extensionsFirefox.txt**
+Extensions: extensionsFirefox.txt
 ```
 
 #### Firefox extensions and settings: custom details
@@ -87,13 +88,12 @@ Extensions: **extensionsFirefox.txt**
 ---
 
 ### KDE Theme:
-- Global theme: Nothing theme (appearance settings, desktop and windows layout)
+- Global theme: Nothing Theme (appearance settings, desktop and windows layout)
 - Breeze main color: orange
-- icons: breeze warm orange
-- splash screen = null
-- panels (lower: autohide + central + 40) and (up: autohide, only orange icons)
-- sddm monochrome kde by patrik
-- Wallpapers: homescreen/lockscreen folder. slideshow mode. 15s.
+- Icons: Breeze Warm Orange
+- No splash screen
+- Panels: lower (autohide + central + 40) and upper (autohide, only orange icons)
+- SDDM: Monochrome KDE by Patrik
 
 ### ZSH:
 ```
@@ -132,11 +132,5 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
-```
-
-### Extra:
-- Whatsapp web bug deleting letter that starts with accent
-```
-GTK_IM_MODULE=xim # on /etc/environment 
 ```
 

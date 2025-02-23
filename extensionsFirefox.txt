@@ -1,4 +1,4 @@
-# feito manualmente
+# 26/12/2024
 
 dark-reader
 enhanced-github

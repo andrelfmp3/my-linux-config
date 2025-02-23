@@ -1,4 +1,5 @@
-#!/bin/bash
+# !/bin/bash
+# Interação com o usuário em PT-BR. Código em inglês.
 
 instalations=(
     "btop"
