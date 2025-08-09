@@ -64,7 +64,7 @@ chmod +x BlackArch+yayScript.sh
 
 ### VScode Extensions:
 ```
-extensionsCode.txt
+extensionsVSCode.sh
 ```
 #### Vscode Extensions: custom details
 - Run in Terminal
@@ -74,7 +74,21 @@ extensionsCode.txt
 
 ### Firefox extensions and settings:
 ```
-Extensions: extensionsFirefox.txt
+Extensions: 
+
+dark-reader
+enhanced-github
+enhancer-for-youtube
+notion-enhancer
+ip-address-and-domain-information
+wappalyzer
+ublock-origin
+block-site
+unhook
+simple-translate
+vimium
+enhancer-for-youtube
+
 ```
 
 #### Firefox extensions and settings: custom details
